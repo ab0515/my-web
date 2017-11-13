@@ -1,0 +1,133 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-default {
+    background: transparent;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-header > a{
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 5px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+
+h1 { /*change font color of h1 text*/
+    color: #ff9763;
+    font-family: 'Cabin Sketch';
+}
+
+.introImg {
+    float: left;
+    width:250px;
+    height:250px;
+    padding-right: 20px;
+}
+
+p.introduceMe {
+    line-height:1.5;
+    color: #ebe2d9;
+
+font-family: 'Sacramento', cursive;
+}
+
+.intro-section {
+    height: 100%;
+    background-image: url(../images/toronto_skyview2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    display:in-block;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.project1-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.project2-section {
+    height: 100%;
+    padding-top: 200px;
+    text-align: center;
+    background: #eee;
+}
+
+.project3-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.project4-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.line {
+    width: 50%;
+    left: 100;
+    border-bottom: 1px solid black;
+    position: absolute;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+    font-size: 18px;
+    word-spacing: 30px;
+    padding-right: 12px;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.indent {
+    margin-left:130px;
+}
