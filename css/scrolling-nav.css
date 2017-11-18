@@ -29,7 +29,7 @@ html {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 5px 0;
+        padding: 2px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -50,6 +50,12 @@ h1 { /*change font color of h1 text*/
     font-size: 60px;
 }
 
+.intro-box {
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+}
+
 .introImg {
     float: left;
     width:250px;
@@ -58,14 +64,15 @@ h1 { /*change font color of h1 text*/
 }
 
 p.introduceMe {
-    line-height:1.2;
+    line-height:1.5;
     color: #ebe2d9;
+    font-size: 24px;
     font-family: 'Amatic SC';
 }
 
 .intro-section {
     height: 100%;
-    background-image: url(../images/toronto_skyview2.jpg);
+    background-image: url(../images/toronto_skyviewNew.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 150px;
@@ -80,14 +87,14 @@ p.introduceMe {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #A5E9DB;
 }
 
 .project2-section {
     height: 100%;
     padding-top: 200px;
     text-align: center;
-    background: #eee;
+    background: #1DCD9F;
 }
 
 .project3-section {
@@ -129,4 +136,8 @@ p {
 
 .indent {
     margin-left:80px;
+}
+
+a {
+    color: #F8ED86;
 }
